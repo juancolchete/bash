@@ -1,6 +1,7 @@
 su root
 pacman -S arch-install-scripts
 mkdir /mnt/neovimLab/
+cd /mnt/neovimLab/
 mount -o subvol=@ /dev/sda2 /mnt/neovimLab
 mount -o subvol=@home /dev/sda2 /mnt/neovimLab/home
 mount -o subvol=@pkg /dev/sda2 /mnt/neovimLab/var/cache/pacman/pkg
