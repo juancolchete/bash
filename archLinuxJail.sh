@@ -1,5 +1,5 @@
 su root
-pacman -S arch-chroot
+pacman -S arch-install-scripts
 mkdir /mnt/neovimLab/
 mount -o subvol=@ /dev/sda2 /mnt/neovimLab
 mount -o subvol=@home /dev/sda2 /mnt/neovimLab/home
