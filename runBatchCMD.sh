@@ -1,3 +1,4 @@
+#!/bin/sh
 echo -n "CMD:"
 read CMD
 echo -n "count:"

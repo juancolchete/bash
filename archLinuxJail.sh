@@ -1,3 +1,4 @@
+#!/bin/sh
 su root
 pacman -S arch-install-scripts
 mkdir /neovimLab/
